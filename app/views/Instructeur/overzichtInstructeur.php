@@ -13,6 +13,10 @@
 <body>
     <u><?= $data['title']; ?></u>
 
+    <p>Aantal instructeurs: <?= 
+    
+    $data['aantal'] ?></p>
+
     <table>
         <thead>
             <th>Voornaam</th>
